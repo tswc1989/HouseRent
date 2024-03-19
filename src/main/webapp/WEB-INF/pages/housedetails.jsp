@@ -164,7 +164,6 @@
 </section>
 
 <footer>
-    <%--<p>2018年 毕业设计</p>--%>
 </footer>
 <div class="layui-container">
     <div class="layui-tab layui-tab-brief" id="sign" lay-filter="" style="display: none;">

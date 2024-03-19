@@ -54,7 +54,6 @@
         <iframe src="welcome" width="100%" height="100%" frameborder="0" name="iframe" scrolling="auto" seamless></iframe>
     </div>
     <div class="layui-footer" style="text-align: center;font-size: 16px">
-        <%--<p>2018年 毕业设计</p>--%>
     </div>
 </div>
 <script src="/static/layui/layui.js"></script>

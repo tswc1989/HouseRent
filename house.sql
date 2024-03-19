@@ -1,18 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : poland
-Source Server Version : 80013
-Source Host           : localhost:3306
-Source Database       : house
-
-Target Server Type    : MYSQL
-Target Server Version : 80013
-File Encoding         : 65001
-
-Date: 2019-12-12 10:59:45
-*/
-
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
@@ -29,7 +14,7 @@ CREATE TABLE `t_admin` (
 -- ----------------------------
 -- Records of t_admin
 -- ----------------------------
-INSERT INTO `t_admin` VALUES ('1', 'wym', '12345678');
+INSERT INTO `t_admin` VALUES ('1', 'admin', '12345678');
 
 -- ----------------------------
 -- Table structure for t_house
@@ -57,9 +42,9 @@ CREATE TABLE `t_house` (
 -- ----------------------------
 -- Records of t_house
 -- ----------------------------
-INSERT INTO `t_house` VALUES ('30', '碧家全新公寓 东坑店 高颜值配置 24H管家', '1室0厅1卫', '20', '中层/9层', '整租', '600', '东坑城区', 'http://localhost:8090/images/997b2cc4-fb5c-46da-b8da-82a6ab0de843.jpg', '碧桂园豪庭一期', '13813813800', '南北', 'http://localhost:8090/images/b70a0eed-5182-4172-b9f3-d900f066097c.jpg~http://localhost:8090/images/5356fd0b-8ac9-4d39-adb4-c861b5522671.jpg~http://localhost:8090/images/1a6660f5-53b9-4498-aa50-f029af6bfd29.jpg~', 'wym', '2019-12-12 00:28:43');
-INSERT INTO `t_house` VALUES ('31', '温馨一房一厅拎包入住，业主急租，看房方便', '1室1厅1卫', '55', '中层/30层', '合租', '1700', '虎门万达中心', 'http://localhost:8090/images/382f528c-59ee-4a4e-bb37-564b88e8489e.jpg', '虎门万达广场', '18818818822', '东西', 'http://localhost:8090/images/92930fad-8fdb-4320-a66e-5189b9c66727.jpg~http://localhost:8090/images/c7f62778-a9b5-4832-b988-452f6ead0d9d.jpg~http://localhost:8090/images/1b33a1f3-a3e5-4f1f-8945-150581a6ee08.jpg~', 'wym', '2019-12-12 00:32:02');
-INSERT INTO `t_house` VALUES ('32', '市政中心 豪装修5房2厅 宽敞明亮 温馨舒适体验家的感觉', '5室2厅2卫 ', '283', '低层/16层', '整租', '10000', '南城行政中心', 'http://localhost:8090/images/70b4181c-b6c6-46be-9149-78b4a73b494d.jpg', '凯名轩', '16816816800', '南北', 'http://localhost:8090/images/8ce42414-680f-438d-81c5-00b06514ad1d.jpg~http://localhost:8090/images/447f8686-d8f5-48b3-b2c3-09690abe2ae7.jpg~http://localhost:8090/images/bf6d7ced-f44f-4522-8bbb-0502ee921794.jpg~http://localhost:8090/images/d0f7319c-41b1-485f-a0e5-82d3c09ee5ef.jpg~http://localhost:8090/images/830a5fe1-5ece-4a7e-92c6-fab86410b757.jpg~', 'wym', '2019-12-12 00:36:46');
+INSERT INTO `t_house` VALUES ('30', '碧家全新公寓 东坑店 高颜值配置 24H管家', '1室0厅1卫', '20', '中层/9层', '整租', '600', '东坑城区', 'http://localhost:8090/images/997b2cc4-fb5c-46da-b8da-82a6ab0de843.jpg', '碧桂园豪庭一期', '16677728811', '南北', 'http://localhost:8090/images/b70a0eed-5182-4172-b9f3-d900f066097c.jpg~http://localhost:8090/images/5356fd0b-8ac9-4d39-adb4-c861b5522671.jpg~http://localhost:8090/images/1a6660f5-53b9-4498-aa50-f029af6bfd29.jpg~', '子轩', '2024-03-19 00:28:43');
+INSERT INTO `t_house` VALUES ('31', '温馨一房一厅拎包入住，业主急租，看房方便', '1室1厅1卫', '55', '中层/30层', '合租', '1700', '虎门万达中心', 'http://localhost:8090/images/382f528c-59ee-4a4e-bb37-564b88e8489e.jpg', '虎门万达广场', '15529327279', '东西', 'http://localhost:8090/images/92930fad-8fdb-4320-a66e-5189b9c66727.jpg~http://localhost:8090/images/c7f62778-a9b5-4832-b988-452f6ead0d9d.jpg~http://localhost:8090/images/1b33a1f3-a3e5-4f1f-8945-150581a6ee08.jpg~', '子轩', '2024-03-19 00:32:02');
+INSERT INTO `t_house` VALUES ('32', '市政中心 豪装修5房2厅 宽敞明亮 温馨舒适体验家的感觉', '5室2厅2卫 ', '283', '低层/16层', '整租', '10000', '南城行政中心', 'http://localhost:8090/images/70b4181c-b6c6-46be-9149-78b4a73b494d.jpg', '凯名轩', '18390773190', '南北', 'http://localhost:8090/images/8ce42414-680f-438d-81c5-00b06514ad1d.jpg~http://localhost:8090/images/447f8686-d8f5-48b3-b2c3-09690abe2ae7.jpg~http://localhost:8090/images/bf6d7ced-f44f-4522-8bbb-0502ee921794.jpg~http://localhost:8090/images/d0f7319c-41b1-485f-a0e5-82d3c09ee5ef.jpg~http://localhost:8090/images/830a5fe1-5ece-4a7e-92c6-fab86410b757.jpg~', '子轩', '2024-03-19 00:36:46');
 
 -- ----------------------------
 -- Table structure for t_order
@@ -81,8 +66,8 @@ CREATE TABLE `t_order` (
 -- ----------------------------
 -- Records of t_order
 -- ----------------------------
-INSERT INTO `t_order` VALUES ('11', '30', '3', '2019-12-12 00:46:14', 'wym');
-INSERT INTO `t_order` VALUES ('12', '30', '3', '2019-12-12 00:54:44', 'wym');
+INSERT INTO `t_order` VALUES ('11', '30', '3', '2024-03-19 00:46:14', '子轩');
+INSERT INTO `t_order` VALUES ('12', '30', '3', '2024-03-19 00:54:44', '子轩');
 
 -- ----------------------------
 -- Table structure for t_users
@@ -101,5 +86,5 @@ CREATE TABLE `t_users` (
 -- ----------------------------
 -- Records of t_users
 -- ----------------------------
-INSERT INTO `t_users` VALUES ('3', 'wym', '123456', '13556730677', 'wym');
-INSERT INTO `t_users` VALUES ('11', 'lzk', 'lzk', '18320495603', '李先生');
+INSERT INTO `t_users` VALUES ('3', 'wzx', '123456', '16602021691', '子轩');
+INSERT INTO `t_users` VALUES ('11', 'lnb', '123456', '18597797093', '念波');

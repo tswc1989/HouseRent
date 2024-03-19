@@ -57,7 +57,6 @@
         <iframe src="${pageContext.request.contextPath }/welcome01" width="100%" height="100%" frameborder="0" name="iframe" scrolling="auto" seamless></iframe>
     </div>
     <footer class="layui-footer" style="text-align: center;font-size: 16px">
-        <%--<p>2018年 毕业设计</p>--%>
     </footer>
 </div>
 <script src="${pageContext.request.contextPath }/static/layui/layui.js"></script>
