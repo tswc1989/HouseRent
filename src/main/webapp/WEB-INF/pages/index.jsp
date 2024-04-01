@@ -40,10 +40,9 @@
         </div>
     </div>
     <div carousel-item>
-        <div style="background: url('/static/img/banner2.jpg')no-repeat center/cover"></div>
         <div style="background: url('/static/img/banner1.jpg')no-repeat center/cover"></div>
+        <div style="background: url('/static/img/banner2.jpg')no-repeat center/cover"></div>
         <div style="background: url('/static/img/banner3.jpg')no-repeat center/cover"></div>
-        <div style="background: url('/static/img/banner4.jpg')no-repeat center/cover"></div>
     </div>
 </div>
 

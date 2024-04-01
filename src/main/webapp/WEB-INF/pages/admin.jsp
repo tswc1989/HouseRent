@@ -35,9 +35,6 @@
             </form>
         </div>
     </div>
-    <div carousel-item>
-        <div style="background: url('${pageContext.request.contextPath}/img/banner2.jpg')no-repeat center/cover"></div>
-    </div>
 </div>
 <script src="${pageContext.request.contextPath }/static/layui/layui.js"></script>
 <script>
