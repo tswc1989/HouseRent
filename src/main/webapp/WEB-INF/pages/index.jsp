@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/static/layui/css/layui.css"/>
-    <title>房屋租赁网</title>
+    <title>房屋租赁系统</title>
     <link rel="stylesheet" href="/static/css/global.css">
     <script src="/static/layui/layui.js"></script>
 </head>
@@ -14,17 +14,14 @@
 <div class="layui-carousel" id="bg-item">
     <div class="layui-header title">
         <div class="layui-container">
-            <div class="layui-logo layui-pull-left">
-                <img src="/static/img/logo.png" width="240px">
-            </div>
             <c:if test="${not empty loginUser }">
-	            <div class="personalCenter layui-pull-right"><a href="toUserSystem" target="_blank" style="color:#fff"><i class="layui-icon layui-icon-tree"></i>个人中心</a></div>
+	            <div class="personalCenter layui-pull-right"><a href="toUserSystem" target="_blank" style="color:#fff"><i class="layui-icon"></i>个人中心</a></div>
             </c:if>
             <c:if test="${empty loginUser }">
-                <div class="personalCenter layui-pull-right"><a href="toAdminLogin" target="_blank" style="color:#fff"><i class="layui-icon layui-icon-tree"></i>管理员</a></div>
+                <div class="personalCenter layui-pull-right"><a href="toAdminLogin" target="_blank" style="color:#fff"><i class="layui-icon"></i>后台登录</a></div>
             </c:if>
             <c:if test="${empty loginUser }">
-                <div class="operation layui-pull-right"><i class="layui-icon layui-icon-tree"></i>您好</div>
+                <div class="operation layui-pull-right"><i class="layui-icon"></i>个人中心登录</div>
             </c:if>
 
         </div>
