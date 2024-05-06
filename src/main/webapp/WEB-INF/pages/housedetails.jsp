@@ -21,7 +21,6 @@
         <div class="layui-container">
             <div class="layui-pull-left">
             	<a href="toIndexPage" target="_blank">
-	                <img src="/static/img/logo.png" width="240px">
             	</a>
             </div>
             <c:if test="${not empty loginUser }">
